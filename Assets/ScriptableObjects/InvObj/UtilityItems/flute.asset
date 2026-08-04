@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76c28e7c9b63ef4b8ab5e17017cc087, type: 3}
+  m_Name: flute
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 60813898, guid: 22b38a012b2c4a64583306b864bc3050, type: 3}
+  itemID: 11
+  itemTemplate: 
+  shape:
+    _width: 1
+    _height: 1
+    _shape: 01
+  value: 7
+  type: 2
+  itemCanDrop: 1
+  itemPosition: {x: 0, y: 0}
+  itemName: flute
+  gridShape: 0
+  itemMat: 00000000
+  Model: {fileID: 919132149155446097, guid: bfe97959cec8d0a4aa924ad03bb0040f, type: 3}
+  gridModel: {fileID: 116961837453304976, guid: d0859fe26eca7114195b231f7848eba5, type: 3}
+  Materials:
+  - {fileID: 2100000, guid: c2cc3362bf68d3246808a93d343c2a35, type: 2}
+  - {fileID: 2100000, guid: d9e173e83110d024aa1d274b7ec97cfd, type: 2}
+  - {fileID: 2100000, guid: c77190d053c12b448b178bfe322dd653, type: 2}
+  - {fileID: 2100000, guid: 51e3c5ca51c64834eb7cbc54e3ce2752, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93df33b89ab5f14eab562cf2a664539, type: 3}
+  m_Name: ruins
+  m_EditorClassIdentifier: 
+  mapName: Ruins
+  ID: r
+  rewards:
+  - {fileID: 11400000, guid: b670b43cb20bc144db4f896d3450e3c9, type: 2}
+  - {fileID: 11400000, guid: ad9fa5241940e2d46a5c8e40785e8c22, type: 2}
+  - {fileID: 11400000, guid: 46f9c647528604b4fadf3e9cc57f2576, type: 2}
+  - {fileID: 11400000, guid: 950e6c0074c79bb4380ff42590fa65f0, type: 2}
+  - {fileID: 11400000, guid: 51eb5997203d53a488d4ae21238cc60d, type: 2}
+  - {fileID: 11400000, guid: a00c5db3d35f78340a3d2ef8e916633d, type: 2}
+  - {fileID: 11400000, guid: 7fc1350941bdbe94583de414cd4159fb, type: 2}
+  - {fileID: 11400000, guid: 2b58d231a3d9044429872de7ffeaf6bb, type: 2}
+  workTime: 15
+  cost: 15
+  workReq: 01000000010000000000000000000000
+  workDiff: 2
+  mapImage: {fileID: -755576536, guid: 76068425fdc3e6341879029d237e1ccc, type: 3}

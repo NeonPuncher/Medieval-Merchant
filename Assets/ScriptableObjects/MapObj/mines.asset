@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93df33b89ab5f14eab562cf2a664539, type: 3}
+  m_Name: mines
+  m_EditorClassIdentifier: 
+  mapName: Mines
+  ID: m
+  rewards:
+  - {fileID: 11400000, guid: ad9fa5241940e2d46a5c8e40785e8c22, type: 2}
+  - {fileID: 11400000, guid: 46f9c647528604b4fadf3e9cc57f2576, type: 2}
+  - {fileID: 11400000, guid: adab5c2989bf37344a41253f38074385, type: 2}
+  - {fileID: 11400000, guid: 036b92499127cfd4b97c8fe038d2583d, type: 2}
+  - {fileID: 11400000, guid: 02d6873b068dacd41878f0832b753837, type: 2}
+  - {fileID: 11400000, guid: 7fc1350941bdbe94583de414cd4159fb, type: 2}
+  - {fileID: 11400000, guid: b28537cd34bc4ac4b98299badd285b2e, type: 2}
+  workTime: 40
+  cost: 40
+  workReq: 01000000010000000200000000000000
+  workDiff: 4
+  mapImage: {fileID: 1897998146, guid: 76068425fdc3e6341879029d237e1ccc, type: 3}

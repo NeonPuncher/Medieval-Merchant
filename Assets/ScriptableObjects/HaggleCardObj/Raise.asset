@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5e0b5d2fb60574598d590c4f0d15d8, type: 3}
+  m_Name: Raise
+  m_EditorClassIdentifier: Assembly-CSharp::Script_HaggleCard
+  cardName: I know what I got
+  cardImage: {fileID: 1860530409, guid: 0c80f3ce5638d5f45a47420ade92f122, type: 3}
+  cardType: 1
+  changeValue: 0
+  angerValue: 0
+  bannerColor: {r: 0.16432182, g: 0.32550526, b: 0.5924529, a: 1}

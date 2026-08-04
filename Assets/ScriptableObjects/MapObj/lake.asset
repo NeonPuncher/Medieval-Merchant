@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93df33b89ab5f14eab562cf2a664539, type: 3}
+  m_Name: lake
+  m_EditorClassIdentifier: Assembly-CSharp::Script_MapTile
+  mapName: Lake
+  ID: l
+  rewards:
+  - {fileID: 11400000, guid: ce519d933e584c64a808ebbdde64cd23, type: 2}
+  - {fileID: 11400000, guid: b670b43cb20bc144db4f896d3450e3c9, type: 2}
+  - {fileID: 11400000, guid: 072070607f3accd4f86b64fd57348bde, type: 2}
+  - {fileID: 11400000, guid: d975b76c3eb60fb4ba3be344b75e6efe, type: 2}
+  - {fileID: 11400000, guid: 200fbb5cfb8a9b94f9bbc037959b653e, type: 2}
+  - {fileID: 11400000, guid: 15f1dd48fba7921418aba8f7afd59971, type: 2}
+  - {fileID: 11400000, guid: 45cc09e77e0c01f49a2fb9b27d3df743, type: 2}
+  - {fileID: 11400000, guid: 02d6873b068dacd41878f0832b753837, type: 2}
+  workTime: 0
+  cost: 0
+  workReq: 
+  workDiff: 0
+  mapImage: {fileID: -111101167, guid: 76068425fdc3e6341879029d237e1ccc, type: 3}

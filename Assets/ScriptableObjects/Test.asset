@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042c24a6850d2c14983cb584fe8a4f73, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  questName: 0Johnsword
+  race: {fileID: 11400000, guid: 016ab230e91864b4ea9a277e7fce8144, type: 2}
+  job: {fileID: 11400000, guid: 83d83e72bf732564b8bc5c12f218fbd4, type: 2}
+  npcName: John
+  requestItem: Sword
+  dayAccepted: 0
+  dayCompleted: 0
+  dialogueReturn: []
+  dialogueComplete: []

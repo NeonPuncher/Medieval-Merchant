@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5032107bc0b900841a9577dc42e588df, type: 3}
+  m_Name: Craftl
+  m_EditorClassIdentifier: Assembly-CSharp::Crafting_Data
+  <Model>k__BackingField: {fileID: 116961837453304976, guid: aae32b04c66e7594c839da45940b7e96, type: 3}
+  <itemMat>k__BackingField: 010000000200000001000000
+  <name>k__BackingField: lblock
+  <shape>k__BackingField: 2
+  <Materials>k__BackingField:
+  - {fileID: 2100000, guid: c2cc3362bf68d3246808a93d343c2a35, type: 2}
+  - {fileID: 2100000, guid: d9e173e83110d024aa1d274b7ec97cfd, type: 2}
+  - {fileID: 2100000, guid: c77190d053c12b448b178bfe322dd653, type: 2}
+  - {fileID: 2100000, guid: 51e3c5ca51c64834eb7cbc54e3ce2752, type: 2}
+  <Description>k__BackingField: Crafing object 3
+  <Cost>k__BackingField: 30

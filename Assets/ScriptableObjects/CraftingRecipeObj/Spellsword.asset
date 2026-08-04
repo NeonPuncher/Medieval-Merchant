@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905085d54e367c641ab6414efa0855dc, type: 3}
+  m_Name: Spellsword
+  m_EditorClassIdentifier: Assembly-CSharp::Script_CraftRecipe
+  recipeName: Spellsword
+  gridSizeX: 3
+  gridSizeY: 5
+  recipeRawKey: x2x030x1xx1xx1x
+  recipeKey: 2030111
+  weaponTemplate: {fileID: 11400000, guid: c097c1ee4befb3047aa28777635ef3c2, type: 2}

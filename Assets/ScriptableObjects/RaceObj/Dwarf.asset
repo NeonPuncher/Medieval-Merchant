@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026f97d950cce3e4ca058ca0fdb9e241, type: 3}
+  m_Name: Dwarf
+  m_EditorClassIdentifier: 
+  raceName: Dwarf
+  raceNames:
+  - Gimli
+  - Dhuvoun
+  - Ondad
+  - Siboum
+  - Granite
+  hagDif: 20
+  rewards: []
+  dialogueIntro:
+  - "Ho there, merchant! Name's 1, Master 2! I\u2019ve heard tales of your skill,
+    and I\u2019ve a request. I need a 3, crafted to my own design. Think ye can craft
+    me such a thing?"
+  - Ah, there you are! 1 they call me. I'm the local 2 of my home. I've need of a
+    3, something that'll protect me against the toughest of foes and fearsome of
+    beasts
+  dialogueAccept:
+  - "Make it strong, make it true, and I\u2019ll make sure your name is sung in the
+    halls of dwarven kings! The Ironhammer doesn\u2019t forget a good 3."
+  - "Ha! I knew ye wouldn\u2019t disappoint! Ye have the look of a man who knows
+    his craft, and I\u2019ve no doubt this 3 will be a beauty."
+  dialogueRefuse:
+  - "Perhaps I\u2019ve come to the wrong place. When next ye hear of 1 glories, remember
+    it could\u2019ve been your mark on it."
+  - "So ye won\u2019t take on the task. Not all have the heart for true craftsmanship,
+    I suppose. There\u2019s no shame in that."
+  dialogueReturn:
+  - '*BURP* Ya have mine 3 ready merchant?'
+  - A
+  dialogueComplete:
+  - "You\u2019ve outdone yourself! I\u2019ll be takin' this into the darkest depths,
+    and know this\u2014every victory I win, your name will be spoken right alongside
+    Ironhammer\u2019s!"
+  - "By the gods of the deep! A finer piece I\u2019ve never held. You've certainly
+    earned your coin master merchant! That we might meet again!"

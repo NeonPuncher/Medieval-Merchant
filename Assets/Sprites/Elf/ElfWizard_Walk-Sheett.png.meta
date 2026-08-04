@@ -1,0 +1,1434 @@
+fileFormatVersion: 2
+guid: 2fd400c02baf1e4418c04ef3cc6ec37f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a430812671e3542b72f98690de4913
+      internalID: 875377611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b246d1c9e97194597e08602e4460ab
+      internalID: -322587764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e92d91cbebb8ac4aa325868ffd432ee
+      internalID: 197200739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0102a893916a74889fb0272555bf35
+      internalID: 1133417164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb76a904be7c45149a061760971a28be
+      internalID: -509168848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4862d7bace9faf438e335aa773f7adb
+      internalID: 733364504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65351768f0857034bb3af4882a86cce8
+      internalID: -1533236148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384a0fe72001a9e49aee98d79409aef8
+      internalID: 643444833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad68c6ce84b87d244b7f18c7a68375df
+      internalID: -2074174588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3864e0c972c494ca086cccaf849c5e
+      internalID: 620039864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aabd91a4e5e774d98f55870121ba20
+      internalID: -590477998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e74076bcf285c6498ec591fadd5ff61
+      internalID: -1673137872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592c6a5b34fdab84cb888c1b60844c6b
+      internalID: -73672296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741fb0dc6b4426743916dec1e1a7dbbb
+      internalID: -1517932020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_14
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070f7d556a67179408c4318bd4cbe41e
+      internalID: -507030965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1c6febe094d254ba26aee62887e1a9
+      internalID: -2087418623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41752edb1ce6a3409688bdf09b5ca6a
+      internalID: 1511533397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e194a21041e9ce741b1d1cdb0c572dc3
+      internalID: -933805985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae310289e39f4734f9d156456f6b2c0a
+      internalID: 2026623841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed9ed36488d33941aee211af9e431b3
+      internalID: -1473997406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ec6dd1543321a49a2df23135fce538
+      internalID: 1785357787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5e2672a054b2f42870a46f2eb3ee37
+      internalID: 863978860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d1ff8f74181294ea9ed314c0e6b48e
+      internalID: -2042355923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6180f742371a60a4e812ec5405da1310
+      internalID: -702817525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_24
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b03029b9789ec46b9bd05508e10621
+      internalID: 313988094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0bcc2993f4fa5419b0c36f705ee6c6
+      internalID: 1723053943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_26
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6831bf1ea615844dad39fade10d939e
+      internalID: -154866525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_27
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5b9d31eb0786c459e34fb071c4753a
+      internalID: 160612949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_28
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab391375733787847a8535a2af6f99a0
+      internalID: -2097509740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_29
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 164
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6485d6aa4e430e45a0290581526cdcd
+      internalID: -469366491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ebaa4ce0f86ff428bf75d8ae2f4f31
+      internalID: -1681316671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4551bfa5a4b45440821b0689869f93b
+      internalID: 1856396915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_32
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ebbe06afcde4e4db2025521259279a
+      internalID: -1649351104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_33
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f112fd0c2a5654438fa2d1fa5ecd97a
+      internalID: -1503799217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_34
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee53d973452b544f87f3b980ca0b60f
+      internalID: -2049554601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_35
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b5fe02235fae440bbee0b575321e8a
+      internalID: 547423917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a1eae5c6d72cf43ae5d48869dd42b1
+      internalID: -804444755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_37
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207839d7702973c44909086be1c543e4
+      internalID: -230900457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_38
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8582a3ad9243bc847a867d7ac227f7d1
+      internalID: -662811426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_39
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acfcceaec3a3fb42ae98569ecae9a68
+      internalID: -1677529085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_40
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cef740ac26aa0468ebc76cb554aeaf
+      internalID: 218083409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_41
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c1d3049e29fc841bac092c7b4f59f2
+      internalID: 1687805934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d347a9dbcbeb448bea4d3812624410
+      internalID: 1944047658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_43
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a6e6b83babc1f44a060e36f39d57b3
+      internalID: 2047571339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_44
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 82
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6b7564246eab34e8f4854dd7a136ac
+      internalID: 1675218642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55de5897e65a3946bc2bfa5d73d8d2d
+      internalID: 1077952742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_46
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c99105ac4c0ff4a8287490e47e0f1e
+      internalID: -371200891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3dea71557432e4a921fe27b5f1d95b
+      internalID: -826715783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_48
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ecd78434ed05346a180d6317e0bb01
+      internalID: -1028978602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_49
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cf8c261e0c7bb479c62339069ccc85
+      internalID: 211244080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_50
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a9fcec0208a2340b03e31b5433d5cf
+      internalID: 52369887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd4f7f2e8b5393458bc98467aa40a50
+      internalID: -705471705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_52
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f659a10b6a9e34e972764072ab7871
+      internalID: -75977127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_53
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc972ee3dbffe74ca93ce744358e117
+      internalID: -422906547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_54
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe16d78eddcd4f041b88364cb98a2720
+      internalID: -1761382416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_55
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad14e535745b5e43b221dd611e72b76
+      internalID: 1688624107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_56
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79fddd0954103849a93910595cc0367
+      internalID: -2052597162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_57
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac698644a69cf547b7ae94d010a9e3c
+      internalID: 633445451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_58
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba86999918e38e340b91cf18792fd5ef
+      internalID: -1652440647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWizard_Walk-Sheett_59
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7d960ec67c4d647b9f41905cf4cb79
+      internalID: -2126363539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 82bcf2511cfaa4047847349e6a6479d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ElfWizard_Walk-Sheett_0: 875377611
+      ElfWizard_Walk-Sheett_1: -322587764
+      ElfWizard_Walk-Sheett_10: -590477998
+      ElfWizard_Walk-Sheett_11: -1673137872
+      ElfWizard_Walk-Sheett_12: -73672296
+      ElfWizard_Walk-Sheett_13: -1517932020
+      ElfWizard_Walk-Sheett_14: -507030965
+      ElfWizard_Walk-Sheett_15: -2087418623
+      ElfWizard_Walk-Sheett_16: 1511533397
+      ElfWizard_Walk-Sheett_17: -933805985
+      ElfWizard_Walk-Sheett_18: 2026623841
+      ElfWizard_Walk-Sheett_19: -1473997406
+      ElfWizard_Walk-Sheett_2: 197200739
+      ElfWizard_Walk-Sheett_20: 1785357787
+      ElfWizard_Walk-Sheett_21: 863978860
+      ElfWizard_Walk-Sheett_22: -2042355923
+      ElfWizard_Walk-Sheett_23: -702817525
+      ElfWizard_Walk-Sheett_24: 313988094
+      ElfWizard_Walk-Sheett_25: 1723053943
+      ElfWizard_Walk-Sheett_26: -154866525
+      ElfWizard_Walk-Sheett_27: 160612949
+      ElfWizard_Walk-Sheett_28: -2097509740
+      ElfWizard_Walk-Sheett_29: -469366491
+      ElfWizard_Walk-Sheett_3: 1133417164
+      ElfWizard_Walk-Sheett_30: -1681316671
+      ElfWizard_Walk-Sheett_31: 1856396915
+      ElfWizard_Walk-Sheett_32: -1649351104
+      ElfWizard_Walk-Sheett_33: -1503799217
+      ElfWizard_Walk-Sheett_34: -2049554601
+      ElfWizard_Walk-Sheett_35: 547423917
+      ElfWizard_Walk-Sheett_36: -804444755
+      ElfWizard_Walk-Sheett_37: -230900457
+      ElfWizard_Walk-Sheett_38: -662811426
+      ElfWizard_Walk-Sheett_39: -1677529085
+      ElfWizard_Walk-Sheett_4: -509168848
+      ElfWizard_Walk-Sheett_40: 218083409
+      ElfWizard_Walk-Sheett_41: 1687805934
+      ElfWizard_Walk-Sheett_42: 1944047658
+      ElfWizard_Walk-Sheett_43: 2047571339
+      ElfWizard_Walk-Sheett_44: 1675218642
+      ElfWizard_Walk-Sheett_45: 1077952742
+      ElfWizard_Walk-Sheett_46: -371200891
+      ElfWizard_Walk-Sheett_47: -826715783
+      ElfWizard_Walk-Sheett_48: -1028978602
+      ElfWizard_Walk-Sheett_49: 211244080
+      ElfWizard_Walk-Sheett_5: 733364504
+      ElfWizard_Walk-Sheett_50: 52369887
+      ElfWizard_Walk-Sheett_51: -705471705
+      ElfWizard_Walk-Sheett_52: -75977127
+      ElfWizard_Walk-Sheett_53: -422906547
+      ElfWizard_Walk-Sheett_54: -1761382416
+      ElfWizard_Walk-Sheett_55: 1688624107
+      ElfWizard_Walk-Sheett_56: -2052597162
+      ElfWizard_Walk-Sheett_57: 633445451
+      ElfWizard_Walk-Sheett_58: -1652440647
+      ElfWizard_Walk-Sheett_59: -2126363539
+      ElfWizard_Walk-Sheett_6: -1533236148
+      ElfWizard_Walk-Sheett_7: 643444833
+      ElfWizard_Walk-Sheett_8: -2074174588
+      ElfWizard_Walk-Sheett_9: 620039864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5e0b5d2fb60574598d590c4f0d15d8, type: 3}
+  m_Name: Compliment
+  m_EditorClassIdentifier: Assembly-CSharp::Script_HaggleCard
+  cardName: Lovely eyes
+  cardImage: {fileID: 743579016, guid: c0d048b471b20004dbb2a5698504a74c, type: 3}
+  cardType: 0
+  changeValue: 0
+  angerValue: 0
+  bannerColor: {r: 0.6226415, g: 0.5519215, b: 0.13040228, a: 1}
