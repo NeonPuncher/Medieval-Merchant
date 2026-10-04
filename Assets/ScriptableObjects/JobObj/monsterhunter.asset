@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7422c786e325da84eb201e3334927813, type: 3}
+  m_Name: monsterhunter
+  m_EditorClassIdentifier: Assembly-CSharp::Script_Job
+  jobName: Monster Hunter
+  items: []
+  rewards: []
+  dialogueSprite:
+  - {fileID: 235473330, guid: 4b9929591cf4e7d4e9df91a5a6c8d655, type: 3}
+  - {fileID: 723599556, guid: 4b9929591cf4e7d4e9df91a5a6c8d655, type: 3}
+  - {fileID: -2053187063, guid: 4b9929591cf4e7d4e9df91a5a6c8d655, type: 3}
+  inkJson: {fileID: 4900000, guid: 4ccf322aa7b030e43b8da1c4c0f139da, type: 3}
