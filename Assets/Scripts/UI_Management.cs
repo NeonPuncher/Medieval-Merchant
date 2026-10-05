@@ -26,7 +26,10 @@ public class UI_Management : MonoBehaviour
     //Map
     public Map_Generator map;
     public GameObject cartObj;
-    public TextMeshProUGUI timeText;
+
+    //WorkerHUD
+    public Animator workerAnimation;
+    private bool animationState;
 
     void Start()
     {
@@ -36,24 +39,6 @@ public class UI_Management : MonoBehaviour
 
     private void Update()
     {
-        if (map.sendWorker == true)
-        {
-            if (map.workTimer > 0)
-            {
-                map.workTimer -= Time.deltaTime;
-                timeText.text = "Time left: " + Mathf.Round(map.workTimer).ToString() + " sec";
-            }
-            else
-            {
-                cartObj.SetActive(true);
-                map.sendWorker = false;
-            }
-        }
-        else
-        {
-            timeText.text = "";
-        }
-
         //JEZUS FUCKING CHRIST REDO THIS CODE????
         //Redraw Money text if amount changes
         if(PlayerPrefs.GetFloat("money") != moneyPrev)
@@ -61,6 +46,12 @@ public class UI_Management : MonoBehaviour
             moneyText.text = PlayerPrefs.GetFloat("money").ToString();
             moneyPrev = PlayerPrefs.GetFloat("money");
         }
+    }
+
+    public void OpenWorkerHUD()
+    {
+        animationState = !animationState;
+        workerAnimation.SetBool("WorkerHUDOpen", animationState);
     }
 
     public void ChangeRecipeScene()

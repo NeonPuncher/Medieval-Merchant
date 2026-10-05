@@ -13,6 +13,7 @@ public class Script_InvItem : ScriptableObject, IInventoryItem
     [SerializeField] public string itemTemplate;
     [SerializeField] public InventoryShape shape = null;
     [SerializeField] public int value;
+    [SerializeField] public int quality;
     [SerializeField] public Inventory_ItemType type = Inventory_ItemType.Utility;
     [SerializeField] private bool itemCanDrop = false;
     [SerializeField, HideInInspector] private Vector2Int itemPosition = Vector2Int.zero;

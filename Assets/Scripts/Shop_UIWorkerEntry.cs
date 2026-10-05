@@ -48,9 +48,10 @@ public class Shop_UIWorkerEntry : MonoBehaviour
 
         foreach (var item in availableItems)
         {
+            totalWeight += item.quality;
         }
 
-        int averageQualityConversion = 50 + (2*3);
+        int averageQualityConversion = 50 + ();
 
         for(int i = 0; i < cartInventory.maximumAlowedItemCount; i++)
         {

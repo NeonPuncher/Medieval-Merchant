@@ -18,6 +18,7 @@ public class Map_Generator : MonoBehaviour
     public Inventory_Size inventoryVendor;
     public UI_Management uiManager;
     public TextMeshProUGUI fragAmountText;
+    public GameObject mapParent;
 
     private float xcoord;
     private float ycoord;
@@ -63,6 +64,9 @@ public class Map_Generator : MonoBehaviour
     public GameObject itemParent;
     public GameObject itemPrefab;
 
+    public GameObject workerHUDParent;
+    public GameObject workerHUDPrefab;
+
     //Zooming Variables
     private float currentScale;
 
@@ -70,7 +74,7 @@ public class Map_Generator : MonoBehaviour
     void Start()
     {
         fragAmountText.text = fragAmount.ToString() + "x map fragments";
-        currentScale = Mathf.Round(this.transform.localScale.x);
+        currentScale = Mathf.Round(mapParent.transform.localScale.x);
         //GenMap(mapSeed);
         GenerateBlankMap();
     }
@@ -85,7 +89,7 @@ public class Map_Generator : MonoBehaviour
         string tempSeed = mapSeed;
 
         //CLEAR MAP
-        foreach (Transform tile in this.transform)
+        foreach (Transform tile in mapParent.transform)
         {
             Destroy(tile.gameObject);
         }
@@ -130,7 +134,7 @@ public class Map_Generator : MonoBehaviour
             if (mapSeed[0].ToString() == mapTile.ID)
             {
                 GameObject tile = Instantiate(mapTilePrefab);
-                tile.transform.parent = this.transform;
+                tile.transform.parent = mapParent.transform;
                 tile.name = mapTile.ID;
                 tile.transform.localScale = new Vector3(.2f,.2f,0);
                 tile.transform.localPosition = new Vector3(xOffset, yOffset, 0);
@@ -238,6 +242,7 @@ public class Map_Generator : MonoBehaviour
     public void OnTileClick(Script_MapTile mapTile)
     {
         totalCost = mapTile.cost;
+        workTimer = mapTile.workTime;
         tileInfoName.text = mapTile.mapName;
         tileInfoCost.text = "Costs: " + mapTile.cost.ToString() + " gold";
         tileInfoTime.text = "Time: " + mapTile.workTime.ToString() + " Days";
@@ -301,10 +306,14 @@ public class Map_Generator : MonoBehaviour
         totalCost = totalCost + workers[workerPage].workerCost;
         tileInfoCost.text = "Costs: " + totalCost.ToString() + " gold";
         workerParent.transform.GetChild(ButtonWorker).GetComponent<Image>().sprite = workers[workerPage].workerSprite;
+
+        //Worker abilities
         totalFight = totalFight + workers[workerPage].workerSkillFight;
         totalSurv = totalSurv + workers[workerPage].workerSkillSurv;
         totalScav = totalScav + workers[workerPage].workerSkillScav;
         totalSpeed = totalSpeed + workers[workerPage].workerSkillSpeed;
+
+        //Reset worker info page
         workerPage = 0;
         if(workerSelected == false)
         {
@@ -317,7 +326,6 @@ public class Map_Generator : MonoBehaviour
         if(uiManager.money >= totalCost && sendWorker == false && workerSelected == true)
         {
             uiManager.money -= totalCost;
-            workTimer = mapTile.workTime / totalSpeed;
 
             if (mapTile.workDiff > totalFight)
             {
@@ -331,6 +339,9 @@ public class Map_Generator : MonoBehaviour
             inventoryVendor.allItems = mapTile.rewards;
             infoBook.SetActive(false);
             mapUI.SetActive(false);
+
+            //Create worker UI 
+            CreateExpedition(mapTile, mapTile.rewards);
         }
         else
         {
@@ -338,10 +349,23 @@ public class Map_Generator : MonoBehaviour
         }
     }
 
+    private void CreateExpedition(Script_MapTile mapTile, List<Script_InvItem> items)
+    {
+        GameObject newExpedition = Instantiate(workerHUDPrefab, workerHUDParent.transform);
+        Shop_UIWorkerEntry newExpeditionScript = newExpedition.GetComponent<Shop_UIWorkerEntry>();
+        newExpeditionScript.availableItems = items;
+        newExpeditionScript.expeditionTotal = workTimer;
+        newExpeditionScript.expeditionLocationSprite.sprite = mapTile.mapImage;
+        for (int i = 0; i < workerParent.transform.childCount; i++)
+        {
+            newExpeditionScript.expeditionWorkers[i].sprite = workerParent.transform.GetChild(i).GetComponent<Image>().sprite;
+        }
+    }
+
     public void Zoom(float scaling)
     {
         currentScale += scaling;
         Debug.Log(currentScale);
-        this.transform.localScale = new Vector2(currentScale, currentScale);
+        mapParent.transform.localScale = new Vector2(currentScale, currentScale);
     }
 }

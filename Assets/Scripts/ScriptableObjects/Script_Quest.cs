@@ -6,13 +6,19 @@ using UnityEngine;
 public class Script_Quest : ScriptableObject
 {
     public int npcPrefab;
-    public string questName;
     public ScriptRace race;
     public Script_Job job;
     public string npcName;
-    public string requestItem;
     public int dayAccepted;
     public int dayCompleted;
+    public int questState;
 
-    public string[] sentences;
+    //Is there a reward
+    public bool hasReward;
+    public float rewardGold;
+    public List<Script_InvItem> rewardItems;
+
+    //Variables for Quest Quality Item and whether it was succesfull 
+    public float questQuality;
+    public bool qualityMet;
 }

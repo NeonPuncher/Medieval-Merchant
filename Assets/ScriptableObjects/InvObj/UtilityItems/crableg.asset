@@ -20,12 +20,15 @@ MonoBehaviour:
     _height: 2
     _shape: 01010001
   value: 7
+  quality: 3
   type: 2
   itemCanDrop: 1
   itemPosition: {x: 0, y: 0}
   itemName: Giant Crab Leg
   gridShape: 2
   itemMat: 010000000100000001000000
+  specialMatSelected: 0
+  specialMatReact: 0
   Model: {fileID: 919132149155446097, guid: 05ae0e6f8ad67ec42a2bc1b60d49e0cf, type: 3}
   gridModel: {fileID: 116961837453304976, guid: aae32b04c66e7594c839da45940b7e96, type: 3}
   Materials:

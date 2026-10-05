@@ -23,7 +23,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 15f1dd48fba7921418aba8f7afd59971, type: 2}
   - {fileID: 11400000, guid: 45cc09e77e0c01f49a2fb9b27d3df743, type: 2}
   - {fileID: 11400000, guid: 02d6873b068dacd41878f0832b753837, type: 2}
-  workTime: 0
+  workTime: 30
   cost: 0
   workReq: 
   workDiff: 0

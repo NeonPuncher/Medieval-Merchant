@@ -19,12 +19,15 @@ public class Shop_CustomerMove : MonoBehaviour
     private Rigidbody rb;
     private Animator anim;
     public bool isPaused;
+    public bool isLeaving;
+    private Vector3 startPos;
 
     private void Start()
     {
+        startPos = new Vector3(availablePoints[0].x, 0.33f, availablePoints[0].y);
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
-        this.gameObject.transform.position = new Vector3(availablePoints[0].x, 0.33f, availablePoints[0].y);
+        this.gameObject.transform.position = startPos;
     }
 
     private void OnEnable()
@@ -67,6 +70,11 @@ public class Shop_CustomerMove : MonoBehaviour
 
     IEnumerator PauseGetDirection()
     {
+        if(target == startPos && isLeaving == true)
+        {
+            Destroy(gameObject);
+        }
+
         isPaused = true;
         anim.SetBool("WalkDown", false);
         anim.SetBool("WalkUp", false);
@@ -76,6 +84,10 @@ public class Shop_CustomerMove : MonoBehaviour
         yield return new WaitForSeconds(pauseDuration);
 
         target = GetRandomTarget();
+        if (isLeaving == true)
+        {
+            target = new Vector3(availablePoints[0].x, 0.33f, availablePoints[0].y);
+        }
         isPaused = false;
     }
 

@@ -691,28 +691,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_Indicator
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 143
-        width: 5
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8d50189862531846963f4611ff87ecc
-      internalID: 986138222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SkillButton_E1
       rect:
         serializedVersion: 2
@@ -757,50 +735,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkillMeter_Border
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 130
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 664c62424d54fcf4581bfff8f982c706
-      internalID: -244612908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SkillMeter_Fill
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 102
-        width: 27
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dae8ce11ea80d745bf63af3233c4928
-      internalID: 526285698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Coin_Icon
       rect:
         serializedVersion: 2
@@ -831,7 +765,7 @@ TextureImporter:
         width: 33
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -853,7 +787,7 @@ TextureImporter:
         width: 35
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -862,6 +796,94 @@ TextureImporter:
       bones: []
       spriteID: 73eb4a8349b867342bb87af9996c11ca
       internalID: 2060973812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_Continue
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 41
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3c6e7477e38be489a55ea8d4e66dad
+      internalID: 1818642735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cart_Icon
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 90
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36584dffc1d745d41a7da3e942c8ee70
+      internalID: 1642273218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sun
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ce0d43c17101a43b88b036c7c098b2
+      internalID: -1628822358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_WorkerName
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 106
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75215e3357421004d833c814d989b651
+      internalID: -1344487150
       vertices: []
       indices: 
       edges: []
@@ -889,8 +911,10 @@ TextureImporter:
       ButtonS_Icon: -1034726519
       CardBanner_Icon: 2060973812
       Card_Icon: 2114971663
+      Cart_Icon: 2042572110
       Coin_Icon: 2063331493
       DialogueBox: 1914142673
+      Dialogue_Continue: 1818642735
       HaggleBar_Fill: -442752469
       Hagglebar_Border: -2136551754
       InvAvailable: 1695152197
@@ -914,6 +938,8 @@ TextureImporter:
       SkillMeter_Border: -244612908
       SkillMeter_Fill: 526285698
       Skill_Indicator: 986138222
+      UI_Sun: -1628822358
+      UI_WorkerName: -1344487150
       WorkerInfo_Icon: 158715691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

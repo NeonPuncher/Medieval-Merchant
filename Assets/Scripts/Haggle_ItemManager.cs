@@ -48,8 +48,8 @@ public class Haggle_ItemManager : MonoBehaviour
     private void Start()
     {
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("HaggleScene"));
-        //questNPC = FindAnyObjectByType<InventoryTransfer>().npcQuest;
-        itemName = questNPC.requestItem;
+        ////questNPC = FindAnyObjectByType<InventoryTransfer>().npcQuest;
+        //itemName = questNPC.requestItem;
 
         changeHaggleHealth(3);
         offerText.text = offerValue.ToString();
@@ -70,16 +70,16 @@ public class Haggle_ItemManager : MonoBehaviour
     //Update the offer if the total value changes
     public void UpdateOffer()
     {
-        if(itemName == questNPC.requestItem)
-        {
-            //Item is the specific requested item
-            offerValue = offerValue + Random.Range(itemValue * .8f, itemValue * 1.2f); ;
-        }
-        else
-        {
-            //Item is any random Item
-            offerValue = offerValue + Random.Range(itemValue * .5f, itemValue + 1);
-        }
+        //if(itemName == questNPC.requestItem)
+        //{
+        //    //Item is the specific requested item
+        //    offerValue = offerValue + Random.Range(itemValue * .8f, itemValue * 1.2f); ;
+        //}
+        //else
+        //{
+        //    //Item is any random Item
+        //    offerValue = offerValue + Random.Range(itemValue * .5f, itemValue + 1);
+        //}
 
         handAnim.SetTrigger("HandMove");
 

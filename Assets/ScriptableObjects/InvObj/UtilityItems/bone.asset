@@ -20,12 +20,15 @@ MonoBehaviour:
     _height: 1
     _shape: 0101
   value: 7
+  quality: 3
   type: 2
   itemCanDrop: 1
   itemPosition: {x: 0, y: 0}
   itemName: Bone
   gridShape: 1
   itemMat: 0000000000000000
+  specialMatSelected: 0
+  specialMatReact: 0
   Model: {fileID: 919132149155446097, guid: 53e8a89697de1104190a63018f873ee6, type: 3}
   gridModel: {fileID: 116961837453304976, guid: 5d5e02645a7c0c4439974b80f062f91b, type: 3}
   Materials:

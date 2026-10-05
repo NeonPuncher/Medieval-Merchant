@@ -20,12 +20,15 @@ MonoBehaviour:
     _height: 1
     _shape: 01
   value: 7
+  quality: 3
   type: 2
   itemCanDrop: 1
   itemPosition: {x: 0, y: 0}
   itemName: Broken mirror
   gridShape: 0
   itemMat: 01000000
+  specialMatSelected: 0
+  specialMatReact: 0
   Model: {fileID: 919132149155446097, guid: b0a5c693e2d080a4fb81603704645064, type: 3}
   gridModel: {fileID: 116961837453304976, guid: d0859fe26eca7114195b231f7848eba5, type: 3}
   Materials:

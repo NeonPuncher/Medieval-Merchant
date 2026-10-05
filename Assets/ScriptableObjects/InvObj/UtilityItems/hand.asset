@@ -20,12 +20,15 @@ MonoBehaviour:
     _height: 1
     _shape: 01
   value: 7
+  quality: 2
   type: 2
   itemCanDrop: 1
   itemPosition: {x: 0, y: 0}
   itemName: hand
   gridShape: 0
   itemMat: 00000000
+  specialMatSelected: 0
+  specialMatReact: 0
   Model: {fileID: 919132149155446097, guid: f0d7c13bf34b23c4fa0bb55f6b08ddc9, type: 3}
   gridModel: {fileID: 116961837453304976, guid: d0859fe26eca7114195b231f7848eba5, type: 3}
   Materials:

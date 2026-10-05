@@ -22,7 +22,7 @@ public class Shop_CustomerSpawn : MonoBehaviour
         if(timer < 0 && hasSpawned == false)
         {
             hasSpawned = true;
-            SpawnCustomer();
+            //SpawnCustomer();
             timer = Random.Range(60f, 120f);
         }
     }
@@ -32,14 +32,13 @@ public class Shop_CustomerSpawn : MonoBehaviour
     {
         int ran = Random.Range(0, CustomerPrefab.Count);
         GameObject Customer = Instantiate(CustomerPrefab[ran], MAINSHOP.transform);
-        Customer.GetComponent<Shop_Customer>().prefabNum = ran;
+        Customer.GetComponent<Shop_NPC>().prefabNum = ran;
     }
     
     //Spawn Quest NPC after certain days in QuestManager
     public void SpawnQuestNPC(int customerType, Script_Quest quest)
     {
         GameObject Customer = Instantiate(CustomerPrefab[customerType], MAINSHOP.transform);
-        Customer.GetComponent<Shop_Customer>().isAccepted = true;
-        Customer.GetComponent<Shop_Customer>().quest = quest;
+        Customer.GetComponent<Shop_NPC>().quest = quest;
     }
 }

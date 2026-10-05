@@ -20,12 +20,15 @@ MonoBehaviour:
     _height: 1
     _shape: 0101
   value: 7
+  quality: 2
   type: 2
   itemCanDrop: 1
   itemPosition: {x: 0, y: 0}
   itemName: Leech
   gridShape: 1
   itemMat: 0100000001000000
+  specialMatSelected: 0
+  specialMatReact: 0
   Model: {fileID: 919132149155446097, guid: 8d426225bd17525448e3b54ad8b36d93, type: 3}
   gridModel: {fileID: 116961837453304976, guid: 5d5e02645a7c0c4439974b80f062f91b, type: 3}
   Materials:

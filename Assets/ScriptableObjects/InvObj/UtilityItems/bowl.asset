@@ -20,6 +20,7 @@ MonoBehaviour:
     _height: 1
     _shape: 01
   value: 7
+  quality: 1
   type: 2
   itemCanDrop: 1
   itemPosition: {x: 0, y: 0}

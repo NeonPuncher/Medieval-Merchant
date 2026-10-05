@@ -10,20 +10,5 @@ public class ScriptRace : ScriptableObject
     public float hagDif;
     public string[] rewards;
 
-    public Script_HaggleCard[] compliments; 
-
-    [TextArea(3, 10)]
-    public string[] dialogueIntro;
-
-    [TextArea(3, 10)]
-    public string[] dialogueAccept;
-
-    [TextArea(3, 10)]
-    public string[] dialogueRefuse;
-
-    [TextArea(3, 10)]
-    public string[] dialogueReturn;
-
-    [TextArea(3, 10)]
-    public string[] dialogueComplete;
+    public Script_HaggleCard[] compliments;
 }

@@ -20,17 +20,20 @@ public class Inventory_Size : MonoBehaviour
     [SerializeField] private bool fillSave = true;
 
     public InventoryManager inventory;
+    private Inventory_Provider provider;
+    private InventoryController controller;
 
-    void Start()
+    private void Awake()
     {
-        var controller = GameObject.FindAnyObjectByType<InventoryController>();
-        var provider = new Inventory_Provider(renderMode, maximumAlowedItemCount, allowedItem);
+        controller = this.GetComponent<InventoryController>();
+        provider = new Inventory_Provider(renderMode, maximumAlowedItemCount, allowedItem);
 
         //Creating Inventory
         inventory = new InventoryManager(provider, height, height);
+    }
 
-
-        ClearAllItems();
+    void Start()
+    {
 
         //REACTIVATE THIS!!!!!
         GetWeaponPrefab();
@@ -42,13 +45,18 @@ public class Inventory_Size : MonoBehaviour
         }
 
         //If item is moved or anything, SAVE inventory
-        if (fillSave == true)
+        if (fillSave)
         {
             FillInventory();
         }
 
         //Trigger inventory draw system
         GetComponent<InventoryRenderer>().SetInventory(inventory, provider.inventoryRenderMode);
+    }
+
+    private void OnEnable()
+    {
+        ClearAllItems();
     }
 
     public void FillRandomly()
@@ -106,6 +114,14 @@ public class Inventory_Size : MonoBehaviour
                 }
             }
 
+        }
+    }
+
+    public void AddSpecificItem(List<Script_InvItem> items)
+    {
+        foreach (var item in items)
+        {
+            inventory.TryAdd(item);
         }
     }
 

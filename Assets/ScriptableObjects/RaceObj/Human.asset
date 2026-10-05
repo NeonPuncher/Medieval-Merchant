@@ -24,26 +24,4 @@ MonoBehaviour:
   rewards: []
   compliments:
   - {fileID: 11400000, guid: b38aedba2f3cea344a5ec0c54a70612c, type: 2}
-  dialogueIntro:
-  - "I am Sir 1, sworn 2 of the realm. I have fought many battles and faced countless
-    foes, but now I require a new 3\u2014one worthy of my station and my duty."
-  - "Oi merchant! Name\u2019s 1. You\u2019ve probably heard it whispered around these
-    parts. I'm in need of a 3, need it quick and cheap."
-  dialogueAccept:
-  - "Good. I\u2019ve heard much of your work. The men in my company speak highly
-    of you. "
-  - "Good lad. I\u2019ve heard you\u2019re the best around here, and I don\u2019t
-    settle for anything less than the best. "
-  dialogueRefuse:
-  - Alas, I might have expected more from a merchant around these parts, nevertheless
-    I beg thee farewell.
-  - There are not many that refuse me, and those that do, don't tend to live very
-    long around these parts...
-  dialogueReturn:
-  - Oi merchant, I have returned for my 3, is it ready?
-  - A
-  dialogueComplete:
-  - "Let me see it, then. Know that this 3 will see battle, and every time it is
-    drawn, your craftsmanship will be tested\u2014and praised."
-  - "Now this... This is what I\u2019m talkin\u2019 about! You earned your coin,
-    ever damn last of em."
+  inkJson: {fileID: 4900000, guid: f00a299d97d8d0a48adaca5666754938, type: 3}
